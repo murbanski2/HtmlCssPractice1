@@ -3,24 +3,61 @@
     Created on : Sep 3, 2013, 10:46:43 PM
     Author     : Mark
     Description:
-        Purpose of the stylesheet follows.
+        Style sheet to show placement of elements for page2.
 */
 
-root { 
-    display: block;
+body {
+    font-family: Georgia, "Times New Roman",
+		Times, serif;
 }
-
-myradio {
-    padding-left: 11em;
+div.myradio {
+    position: absolute;
+    top: 10em;
+    left: 1em;
     width: 30em;
-    color: red;
-    
+    background-color: red;
 }
-
-mytext1 {}
-mytext2 {}
-mytext3 {}
-mychecks {}
-mybutton1 {}
-mybutton2 {}
-mydrop {}
+div.mytext1 {
+    position: absolute;
+    top: 10em;
+    left: 35em;
+    width: 30em;
+    background-color: lightblue;
+}
+input.mytext2 {
+    background-color: blueviolet;
+    color: white;
+}
+div.mytext3 {
+    position: absolute;
+    top: 3em;
+    left: 1em;
+    width: 30em;
+    background-color: aqua;
+}
+div.mychecks {
+    position: absolute;
+    top: 0em;
+    left: 35em;
+    width: 30em;
+    background-color: orange;
+}
+input.mybutton1 {
+    position: absolute;
+    top: 22em;
+    left: 38em;
+    background-color: orange;
+}
+input.mybutton2 {
+    position: absolute;
+    top: 22em;
+    left: 31em;
+    background-color: orange;    
+}
+div.mydrop {
+    position: absolute;
+    top: 0em;
+    left: 1em;
+    width: 20em;
+    background-color: palegreen;
+}
