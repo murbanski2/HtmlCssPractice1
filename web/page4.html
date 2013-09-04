@@ -8,9 +8,13 @@ and open the template in the editor.
         <title>Page 4</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     </head>
-    <body>
+    <body style="font-family: Georgia, 'Times New Roman', Times, serif;">
         <form action="">
-            <div class="myradio">
+            <div style="position: absolute;
+                        top: 10em;
+                        left: 1em;
+                        width: 30em;
+                        background-color: red;">
                 Bicycle type<br/>
                 <input type="radio" name="sex" value="male">Schwinn<br/>
                 <input type="radio" name="sex" value="female">Trek<br/>
@@ -18,19 +22,31 @@ and open the template in the editor.
                 <input type="radio" name="sex" value="female">Specialized<br/>
             </div>
 
-            <div class="mytext1">
+            <div style="position: absolute;
+                top: 10em;
+                left: 35em;
+                width: 30em;
+                background-color: lightblue;">
                 Name: <input type="text" name="name"><br/>
-                City: <input class="mytext2"  type="text" name="city"><br/>
+                City: <input style="background-color: blueviolet; color: white;"  type="text" name="city"><br/>
             </div>
 
-            <div class="mytext3">
+            <div style="position: absolute;
+                top: 3em;
+                left: 1em;
+                width: 30em;
+                background-color: aqua;">
                 Favorite Park:
                 <textarea class="textarea1" rows="5" cols="30">
                 So, like tell me about your favorite park.
                 </textarea>
             </div>
 
-            <div class="mychecks">
+            <div style="position: absolute;
+                top: 0em;
+                left: 35em;
+                width: 30em;
+                background-color: orange;">
                 Languages I like:<br/>
                 <input type="checkbox" name="lang" value="cobol">I like COBOL<br/>
                 <input type="checkbox" name="lang" value="java" checked>I like Java<br/>
@@ -39,11 +55,21 @@ and open the template in the editor.
             </div>
 
             <div>
-                <input type="submit" value="Submit" class="mybutton1">
-                <input type="submit" value="Cancel" class="mybutton2">
+                <input type="submit" value="Submit" style="position: absolute;
+                    top: 22em;
+                    left: 38em;
+                    background-color: orange;">
+                <input type="submit" value="Cancel" style="position: absolute;
+                    top: 22em;
+                    left: 31em;
+                    background-color: yellow;">
             </div>
 
-            <div class="mydrop">
+            <div style="position: absolute;
+                top: 0em;
+                left: 1em;
+                width: 20em;
+                background-color: palegreen;">
                 Phone Brand: 
                 <select name="phones">
                     <option value="samsung">Samsung</option>
