@@ -1,0 +1,26 @@
+/* 
+    Document   : mystyle
+    Created on : Sep 3, 2013, 10:46:43 PM
+    Author     : Mark
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+myradio {
+    padding-left: 11em;
+    width: 30em;
+    color: red;
+    
+}
+
+mytext1 {}
+mytext2 {}
+mytext3 {}
+mychecks {}
+mybutton1 {}
+mybutton2 {}
+mydrop {}
